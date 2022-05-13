@@ -1,3 +1,3 @@
 const app = require('./');
 
-app.listen(3333);
+app.listen(3030, () => console.log("Server Runinng at 3030"));
